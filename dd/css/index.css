@@ -1,0 +1,62 @@
+#home ul{
+	padding:0 10px;
+}
+#home ul li{
+	background: url(../images/new_list_di.gif) no-repeat left;
+	padding: 0 0 0 10px;
+}
+#home ul li::before{
+	
+}
+#home ul li a{
+	line-height: 26px;
+}
+#home ul li a:last-child{
+	float: right;
+}
+#Career .media{
+    padding: 10px 5px 5px 5px;
+    border-bottom: 1px dashed #ccc;
+}
+.footco{
+	margin-bottom: 10px;
+}
+.footco .media,.footco .media-body{
+	background: #EEEEEE;
+    padding: 5px;
+    border-radius: 3px;
+}
+.footco .thumbnail{
+	margin-bottom: 0px;
+}
+.footlink{
+	background: url(../images/youqing_di.gif) no-repeat left;
+	background-color:#EEEEEE;
+	border-radius: 3px;
+	height: 39px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{width: 100%;}
+.left{
+	left: 16px;
+}
+.right{
+	right: 16px !important;
+}
+/*上下滚动*/  
+#scrollDiv {  
+    width: 300px;  
+    height: 25px;  
+    line-height: 25px;  
+   /* border: #ccc 1px solid;  */
+    overflow: hidden;  
+}  
+#scrollDiv ul{
+	padding: 0;
+}
+#scrollDiv li {  
+    height: 25px;  
+    padding-left: 5px;  
+}  

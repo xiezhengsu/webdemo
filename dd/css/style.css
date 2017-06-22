@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+	font-size: 12px;
+	font-family: 新宋体;
+}
+h4{
+	font-size: 15px;
+}
+ul li{
+	list-style: none;
+}
+.wrap{height: 100%;}
+.page-wrap {
+	min-height: 100%;
+	/* equal to footer height */
+	margin-bottom: -120px;
+}
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+.site-footer, .page-wrap:after {
+	height: 120px;
+}
+.site-footer {
+	background: linear-gradient(#222, #444);
+	color: white;
+}
+.footer-content{
+	margin: auto;
+	text-align: center;
+}
+.footer-content p{
+	line-height: 34px;
+}
